@@ -4,6 +4,8 @@
 #include "delay.h"
 #include "rcc.h"
 #include "usart1.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
 int main(void)
 {

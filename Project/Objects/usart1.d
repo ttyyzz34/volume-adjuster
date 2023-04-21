@@ -2,7 +2,7 @@
 .\objects\usart1.o: System\usart1.h
 .\objects\usart1.o: .\Core\stm32f10x.h
 .\objects\usart1.o: .\Core\core_cm3.h
-.\objects\usart1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart1.o: .\Core\system_stm32f10x.h
 .\objects\usart1.o: .\main\stm32f10x_conf.h
 .\objects\usart1.o: .\FWLIB\inc\stm32f10x_adc.h
@@ -29,5 +29,5 @@
 .\objects\usart1.o: .\FWLIB\inc\stm32f10x_usart.h
 .\objects\usart1.o: .\FWLIB\inc\stm32f10x_wwdg.h
 .\objects\usart1.o: .\FWLIB\inc\misc.h
-.\objects\usart1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usart1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\usart1.o: System\gpio.h

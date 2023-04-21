@@ -2,7 +2,7 @@
 .\objects\stm32f10x_i2c.o: .\FWLIB\inc\stm32f10x_i2c.h
 .\objects\stm32f10x_i2c.o: .\Core\stm32f10x.h
 .\objects\stm32f10x_i2c.o: .\Core\core_cm3.h
-.\objects\stm32f10x_i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_i2c.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_i2c.o: .\Core\system_stm32f10x.h
 .\objects\stm32f10x_i2c.o: .\main\stm32f10x_conf.h
 .\objects\stm32f10x_i2c.o: .\FWLIB\inc\stm32f10x_adc.h
