@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/System",
+                "${workspaceFolder}/Application",
+                "${workspaceFolder}/Core",
+                "${workspaceFolder}/FreeRTOS",
+                "${workspaceFolder}/FreeRTOS/include",
+                "${workspaceFolder}/FreeRTOS/portable/RVDS/ARM_CM3",
+                "${workspaceFolder}/FWLIB/inc",
+                "${workspaceFolder}/Main",
+                "C:/Keil_v5/ARM/ARMCC/include"
+
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10x",
+                "__CC_ARM",
+                "STM32F10X_MD"
+            ],
+            "cStandard": "c99",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
