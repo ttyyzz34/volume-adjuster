@@ -5,7 +5,6 @@
 #include "rcc.h"
 #include "usart1.h"
 
-// ÕâÊÇZZCÐ´µÄ
 int main(void)
 {
 	SystemClock_Config();
