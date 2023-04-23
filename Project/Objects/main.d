@@ -1,7 +1,7 @@
 .\objects\main.o: main\main.c
 .\objects\main.o: .\Core\stm32f10x.h
 .\objects\main.o: .\Core\core_cm3.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: .\Core\system_stm32f10x.h
 .\objects\main.o: .\main\stm32f10x_conf.h
 .\objects\main.o: .\FWLIB\inc\stm32f10x_adc.h
@@ -31,7 +31,7 @@
 .\objects\main.o: .\Application\led.h
 .\objects\main.o: .\System\gpio.h
 .\objects\main.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: .\main\FreeRTOSConfig.h
 .\objects\main.o: .\FreeRTOS\include\projdefs.h
 .\objects\main.o: .\FreeRTOS\include\portable.h
@@ -41,4 +41,6 @@
 .\objects\main.o: .\System\delay.h
 .\objects\main.o: .\System\rcc.h
 .\objects\main.o: .\System\usart1.h
-.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: .\FreeRTOS\include\task.h
+.\objects\main.o: .\FreeRTOS\include\list.h

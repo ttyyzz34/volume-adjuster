@@ -2,7 +2,7 @@
 .\objects\rcc.o: System\rcc.h
 .\objects\rcc.o: .\Core\stm32f10x.h
 .\objects\rcc.o: .\Core\core_cm3.h
-.\objects\rcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rcc.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rcc.o: .\Core\system_stm32f10x.h
 .\objects\rcc.o: .\main\stm32f10x_conf.h
 .\objects\rcc.o: .\FWLIB\inc\stm32f10x_adc.h

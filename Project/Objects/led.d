@@ -2,7 +2,7 @@
 .\objects\led.o: Application\led.h
 .\objects\led.o: .\Core\stm32f10x.h
 .\objects\led.o: .\Core\core_cm3.h
-.\objects\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\led.o: .\Core\system_stm32f10x.h
 .\objects\led.o: .\main\stm32f10x_conf.h
 .\objects\led.o: .\FWLIB\inc\stm32f10x_adc.h
@@ -31,7 +31,7 @@
 .\objects\led.o: .\FWLIB\inc\misc.h
 .\objects\led.o: .\System\gpio.h
 .\objects\led.o: .\FreeRTOS\include\FreeRTOS.h
-.\objects\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\led.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\led.o: .\main\FreeRTOSConfig.h
 .\objects\led.o: .\FreeRTOS\include\projdefs.h
 .\objects\led.o: .\FreeRTOS\include\portable.h

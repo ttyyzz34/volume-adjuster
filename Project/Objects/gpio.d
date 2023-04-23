@@ -2,7 +2,7 @@
 .\objects\gpio.o: System\gpio.h
 .\objects\gpio.o: .\Core\stm32f10x.h
 .\objects\gpio.o: .\Core\core_cm3.h
-.\objects\gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gpio.o: .\Core\system_stm32f10x.h
 .\objects\gpio.o: .\main\stm32f10x_conf.h
 .\objects\gpio.o: .\FWLIB\inc\stm32f10x_adc.h
