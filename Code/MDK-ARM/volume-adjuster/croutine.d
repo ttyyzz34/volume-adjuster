@@ -1,0 +1,14 @@
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+volume-adjuster\croutine.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+volume-adjuster\croutine.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+volume-adjuster\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+volume-adjuster\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

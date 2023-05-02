@@ -1,0 +1,15 @@
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+volume-adjuster\event_groups.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+volume-adjuster\event_groups.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+volume-adjuster\event_groups.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+volume-adjuster\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+volume-adjuster\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

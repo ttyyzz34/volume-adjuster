@@ -1,0 +1,15 @@
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+volume-adjuster\queue.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+volume-adjuster\queue.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+volume-adjuster\queue.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+volume-adjuster\queue.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+volume-adjuster\queue.o: ../Core/Inc/FreeRTOSConfig.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+volume-adjuster\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
