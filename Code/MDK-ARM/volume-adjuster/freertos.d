@@ -34,5 +34,15 @@ volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_co
 volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
-volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
-volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
+volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
+volume-adjuster\freertos.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
+volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
+volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
+volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
+volume-adjuster\freertos.o: ../Application/led.h
+volume-adjuster\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+volume-adjuster\freertos.o: ../Core/Inc/gpio.h
