@@ -129,6 +129,7 @@
         </SetRegEntry>
       </TargetDriverDllRegistry>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Breakpoint>
         <Bp>
           <Number>0</Number>
@@ -147,6 +148,9 @@
           <Expression>\\volume_adjuster\../Core/Src/stm32f1xx_it.c\102</Expression>
         </Bp>
       </Breakpoint>
+=======
+      <Breakpoint/>
+>>>>>>> parent of 360faad (0502)
 =======
       <Breakpoint/>
 >>>>>>> parent of 360faad (0502)
@@ -384,6 +388,7 @@
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <PathWithFileName>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c</PathWithFileName>
       <FilenameWithoutPath>stm32f1xx_hal_pcd.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -422,6 +427,8 @@
       <bDave2>0</bDave2>
 =======
 >>>>>>> parent of 360faad (0502)
+=======
+>>>>>>> parent of 360faad (0502)
       <PathWithFileName>../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c</PathWithFileName>
       <FilenameWithoutPath>stm32f1xx_hal.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -430,7 +437,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>17</FileNumber>
+=======
+      <FileNumber>13</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>13</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -446,7 +457,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>18</FileNumber>
+=======
+      <FileNumber>14</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>14</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -462,7 +477,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>19</FileNumber>
+=======
+      <FileNumber>15</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>15</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -478,7 +497,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>20</FileNumber>
+=======
+      <FileNumber>16</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>16</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -494,7 +517,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>21</FileNumber>
+=======
+      <FileNumber>17</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>17</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -510,7 +537,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>22</FileNumber>
+=======
+      <FileNumber>18</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>18</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -526,7 +557,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>23</FileNumber>
+=======
+      <FileNumber>19</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>19</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -542,7 +577,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>24</FileNumber>
+=======
+      <FileNumber>20</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>20</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -558,7 +597,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>25</FileNumber>
+=======
+      <FileNumber>21</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>21</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -574,7 +617,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>26</FileNumber>
+=======
+      <FileNumber>22</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>22</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -590,7 +637,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>27</FileNumber>
+=======
+      <FileNumber>23</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>23</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -606,7 +657,11 @@
     <File>
       <GroupNumber>4</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>28</FileNumber>
+=======
+      <FileNumber>24</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>24</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -654,7 +709,11 @@
     <File>
       <GroupNumber>5</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>29</FileNumber>
+=======
+      <FileNumber>27</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>27</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -678,7 +737,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>30</FileNumber>
+=======
+      <FileNumber>28</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>28</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -694,7 +757,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>31</FileNumber>
+=======
+      <FileNumber>29</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>29</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -710,7 +777,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>32</FileNumber>
+=======
+      <FileNumber>30</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>30</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -726,7 +797,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>33</FileNumber>
+=======
+      <FileNumber>31</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>31</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -742,7 +817,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>34</FileNumber>
+=======
+      <FileNumber>32</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>32</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -758,7 +837,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>35</FileNumber>
+=======
+      <FileNumber>33</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>33</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -774,7 +857,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>36</FileNumber>
+=======
+      <FileNumber>34</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>34</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -790,7 +877,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>37</FileNumber>
+=======
+      <FileNumber>35</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>35</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -806,7 +897,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>38</FileNumber>
+=======
+      <FileNumber>36</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>36</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -822,7 +917,11 @@
     <File>
       <GroupNumber>6</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>39</FileNumber>
+=======
+      <FileNumber>37</FileNumber>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>37</FileNumber>
 >>>>>>> parent of 360faad (0502)
@@ -846,8 +945,13 @@
     <File>
       <GroupNumber>7</GroupNumber>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <FileNumber>40</FileNumber>
       <FileType>5</FileType>
+=======
+      <FileNumber>38</FileNumber>
+      <FileType>1</FileType>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileNumber>38</FileNumber>
       <FileType>1</FileType>
@@ -871,7 +975,7 @@
     <File>
       <GroupNumber>8</GroupNumber>
 <<<<<<< HEAD
-      <FileNumber>41</FileNumber>
+<<<<<<< HEAD
 =======
       <FileNumber>39</FileNumber>
       <FileType>1</FileType>
@@ -894,11 +998,55 @@
     <File>
       <GroupNumber>9</GroupNumber>
       <FileNumber>40</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>../Middlewares/Third_Party/FatFs/src/diskio.c</PathWithFileName>
+      <FilenameWithoutPath>diskio.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>9</GroupNumber>
+>>>>>>> parent of 360faad (0502)
+      <FileNumber>41</FileNumber>
+=======
+      <FileNumber>39</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+<<<<<<< HEAD
+      <PathWithFileName>../FATFS/App/fatfs.c</PathWithFileName>
+      <FilenameWithoutPath>fatfs.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+  </Group>
+
+  <Group>
+    <GroupName>Middlewares/FatFs</GroupName>
+    <tvExp>0</tvExp>
+    <tvExpOptDlg>0</tvExpOptDlg>
+    <cbSel>0</cbSel>
+    <RteFlg>0</RteFlg>
+=======
+      <PathWithFileName>../Middlewares/Third_Party/FatFs/src/ff.c</PathWithFileName>
+      <FilenameWithoutPath>ff.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+>>>>>>> parent of 360faad (0502)
+    <File>
+      <GroupNumber>9</GroupNumber>
+      <FileNumber>40</FileNumber>
 >>>>>>> parent of 360faad (0502)
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+<<<<<<< HEAD
       <PathWithFileName>../Middlewares/Third_Party/FatFs/src/diskio.c</PathWithFileName>
       <FilenameWithoutPath>diskio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -928,6 +1076,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
+=======
+>>>>>>> parent of 360faad (0502)
       <PathWithFileName>../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c</PathWithFileName>
       <FilenameWithoutPath>ff_gen_drv.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
@@ -956,6 +1106,7 @@
     <File>
       <GroupNumber>10</GroupNumber>
       <FileNumber>44</FileNumber>
+<<<<<<< HEAD
 <<<<<<< HEAD
       <FileType>1</FileType>
       <tvExp>0</tvExp>
@@ -999,6 +1150,14 @@
       <bDave2>0</bDave2>
       <PathWithFileName>../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Src/usbd_hid.c</PathWithFileName>
       <FilenameWithoutPath>usbd_hid.c</FilenameWithoutPath>
+=======
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\Readme.txt</PathWithFileName>
+      <FilenameWithoutPath>Readme.txt</FilenameWithoutPath>
+>>>>>>> parent of 360faad (0502)
 =======
       <FileType>5</FileType>
       <tvExp>0</tvExp>

@@ -90,6 +90,7 @@ void HardFault_Handler(void)
   /* USER CODE END HardFault_IRQn 0 */
   while (1)
 <<<<<<< HEAD
+<<<<<<< HEAD
   {
     /* USER CODE BEGIN W1_HardFault_IRQn 0 */
 		//获取错误信息
@@ -104,10 +105,15 @@ void HardFault_Handler(void)
     /* USER CODE END W1_HardFault_IRQn 0 */
   }
 =======
+=======
+>>>>>>> parent of 360faad (0502)
     {
       /* USER CODE BEGIN W1_HardFault_IRQn 0 */
       /* USER CODE END W1_HardFault_IRQn 0 */
     }
+<<<<<<< HEAD
+>>>>>>> parent of 360faad (0502)
+=======
 >>>>>>> parent of 360faad (0502)
 }
 
@@ -199,6 +205,7 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /**
   * @brief This function handles USB low priority or CAN RX0 interrupts.
   */
@@ -213,6 +220,8 @@ void USB_LP_CAN1_RX0_IRQHandler(void)
   /* USER CODE END USB_LP_CAN1_RX0_IRQn 1 */
 }
 
+=======
+>>>>>>> parent of 360faad (0502)
 =======
 >>>>>>> parent of 360faad (0502)
 /* USER CODE BEGIN 1 */

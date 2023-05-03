@@ -61,7 +61,11 @@ void MX_FREERTOS_Init (void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
 <<<<<<< HEAD
+<<<<<<< HEAD
 void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer, uint32_t *pulIdleTaskStackSize );
+=======
+void vApplicationGetIdleTaskMemory (StaticTask_t** ppxIdleTaskTCBBuffer, StackType_t** ppxIdleTaskStackBuffer, uint32_t* pulIdleTaskStackSize);
+>>>>>>> parent of 360faad (0502)
 =======
 void vApplicationGetIdleTaskMemory (StaticTask_t** ppxIdleTaskTCBBuffer, StackType_t** ppxIdleTaskStackBuffer, uint32_t* pulIdleTaskStackSize);
 >>>>>>> parent of 360faad (0502)
@@ -84,6 +88,7 @@ void vApplicationGetIdleTaskMemory (StaticTask_t** ppxIdleTaskTCBBuffer, StackTy
   * @param  None
   * @retval None
   */
+<<<<<<< HEAD
 <<<<<<< HEAD
 void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN Init */
@@ -159,6 +164,38 @@ void MX_FREERTOS_Init (void)
     /* add threads, ... */
     /* USER CODE END RTOS_THREADS */
 >>>>>>> parent of 360faad (0502)
+=======
+void MX_FREERTOS_Init (void)
+{
+    /* USER CODE BEGIN Init */
+
+    /* USER CODE END Init */
+
+    /* USER CODE BEGIN RTOS_MUTEX */
+    /* add mutexes, ... */
+    /* USER CODE END RTOS_MUTEX */
+
+    /* USER CODE BEGIN RTOS_SEMAPHORES */
+    /* add semaphores, ... */
+    /* USER CODE END RTOS_SEMAPHORES */
+
+    /* USER CODE BEGIN RTOS_TIMERS */
+    /* start timers, add new ones, ... */
+    /* USER CODE END RTOS_TIMERS */
+
+    /* USER CODE BEGIN RTOS_QUEUES */
+    /* add queues, ... */
+    /* USER CODE END RTOS_QUEUES */
+
+    /* Create the thread(s) */
+    /* definition and creation of LEDTask */
+    osThreadDef (LEDTask, LED_Task, osPriorityNormal, 0, 128);
+    LEDTaskHandle = osThreadCreate (osThread (LEDTask), NULL);
+
+    /* USER CODE BEGIN RTOS_THREADS */
+    /* add threads, ... */
+    /* USER CODE END RTOS_THREADS */
+>>>>>>> parent of 360faad (0502)
 
 }
 
@@ -171,6 +208,7 @@ void MX_FREERTOS_Init (void)
 /* USER CODE END Header_LED_Task */
 void LED_Task (void const* argument)
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
@@ -200,6 +238,11 @@ void Led_Task(void const * argument)
     /* Infinite loop */
     for (;;)
 >>>>>>> parent of 360faad (0502)
+=======
+    /* USER CODE BEGIN LED_Task */
+    /* Infinite loop */
+    for (;;)
+>>>>>>> parent of 360faad (0502)
 	{
 		led_Toggle();
 		osDelay(500);
@@ -210,6 +253,7 @@ void Led_Task(void const * argument)
 		osDelay(1000);
 		TIM1->CCR1 = 0;
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
   /* USER CODE END Led_Task */
 }
@@ -234,6 +278,9 @@ void Key_Task(void const * argument)
 //		}
 	}
   /* USER CODE END Key_Task */
+=======
+    /* USER CODE END LED_Task */
+>>>>>>> parent of 360faad (0502)
 =======
     /* USER CODE END LED_Task */
 >>>>>>> parent of 360faad (0502)

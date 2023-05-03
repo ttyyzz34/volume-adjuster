@@ -45,4 +45,7 @@ volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/porta
 volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+<<<<<<< HEAD
+>>>>>>> parent of 360faad (0502)
+=======
 >>>>>>> parent of 360faad (0502)
