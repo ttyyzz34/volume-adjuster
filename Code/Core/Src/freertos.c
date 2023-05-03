@@ -67,7 +67,7 @@ extern void MX_USB_DEVICE_Init(void);
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
 /* GetIdleTaskMemory prototype (linked to static allocation support) */
-void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer, uint32_t *pulIdleTaskStackSize);
+void vApplicationGetIdleTaskMemory( StaticTask_t **ppxIdleTaskTCBBuffer, StackType_t **ppxIdleTaskStackBuffer, uint32_t *pulIdleTaskStackSize );
 
 /* USER CODE BEGIN GET_IDLE_TASK_MEMORY */
 static StaticTask_t xIdleTaskTCBBuffer;
@@ -88,47 +88,47 @@ void vApplicationGetIdleTaskMemory(StaticTask_t **ppxIdleTaskTCBBuffer, StackTyp
   * @retval None
   */
 void MX_FREERTOS_Init(void) {
-	/* USER CODE BEGIN Init */
+  /* USER CODE BEGIN Init */
 
-	/* USER CODE END Init */
+  /* USER CODE END Init */
 
-	/* USER CODE BEGIN RTOS_MUTEX */
+  /* USER CODE BEGIN RTOS_MUTEX */
 	/* add mutexes, ... */
-	/* USER CODE END RTOS_MUTEX */
+  /* USER CODE END RTOS_MUTEX */
 
-	/* USER CODE BEGIN RTOS_SEMAPHORES */
+  /* USER CODE BEGIN RTOS_SEMAPHORES */
 	/* add semaphores, ... */
-	/* USER CODE END RTOS_SEMAPHORES */
+  /* USER CODE END RTOS_SEMAPHORES */
 
-	/* USER CODE BEGIN RTOS_TIMERS */
+  /* USER CODE BEGIN RTOS_TIMERS */
 	/* start timers, add new ones, ... */
-	/* USER CODE END RTOS_TIMERS */
+  /* USER CODE END RTOS_TIMERS */
 
-	/* Create the queue(s) */
-	/* definition and creation of KeyQueue */
-	osMessageQDef(KeyQueue, 2, uint16_t);
-	KeyQueueHandle = osMessageCreate(osMessageQ(KeyQueue), NULL);
+  /* Create the queue(s) */
+  /* definition and creation of KeyQueue */
+  osMessageQDef(KeyQueue, 2, uint16_t);
+  KeyQueueHandle = osMessageCreate(osMessageQ(KeyQueue), NULL);
 
-	/* USER CODE BEGIN RTOS_QUEUES */
+  /* USER CODE BEGIN RTOS_QUEUES */
 	/* add queues, ... */
-	/* USER CODE END RTOS_QUEUES */
+  /* USER CODE END RTOS_QUEUES */
 
-	/* Create the thread(s) */
-	/* definition and creation of DefaultTask */
-	osThreadDef(DefaultTask, Default_Task, osPriorityIdle, 0, 256);
-	DefaultTaskHandle = osThreadCreate(osThread(DefaultTask), NULL);
+  /* Create the thread(s) */
+  /* definition and creation of DefaultTask */
+  osThreadDef(DefaultTask, Default_Task, osPriorityIdle, 0, 256);
+  DefaultTaskHandle = osThreadCreate(osThread(DefaultTask), NULL);
 
-	/* definition and creation of LedTask */
-//	osThreadDef(LedTask, Led_Task, osPriorityLow, 0, 256);
-//	LedTaskHandle = osThreadCreate(osThread(LedTask), NULL);
+  /* definition and creation of LedTask */
+  osThreadDef(LedTask, Led_Task, osPriorityLow, 0, 256);
+  LedTaskHandle = osThreadCreate(osThread(LedTask), NULL);
 
-	/* definition and creation of KeyTask */
-//	osThreadDef(KeyTask, Key_Task, osPriorityLow, 0, 1024);
-//	KeyTaskHandle = osThreadCreate(osThread(KeyTask), NULL);
+  /* definition and creation of KeyTask */
+  osThreadDef(KeyTask, Key_Task, osPriorityLow, 0, 1024);
+  KeyTaskHandle = osThreadCreate(osThread(KeyTask), NULL);
 
-	/* USER CODE BEGIN RTOS_THREADS */
+  /* USER CODE BEGIN RTOS_THREADS */
 	/* add threads, ... */
-	/* USER CODE END RTOS_THREADS */
+  /* USER CODE END RTOS_THREADS */
 
 }
 
@@ -141,15 +141,15 @@ void MX_FREERTOS_Init(void) {
 /* USER CODE END Header_Default_Task */
 void Default_Task(void const * argument)
 {
-	/* init code for USB_DEVICE */
-	MX_USB_DEVICE_Init();
-	/* USER CODE BEGIN Default_Task */
+  /* init code for USB_DEVICE */
+  MX_USB_DEVICE_Init();
+  /* USER CODE BEGIN Default_Task */
 	/* Infinite loop */
 	for(;;)
 	{
 		osDelay(1);
 	}
-	/* USER CODE END Default_Task */
+  /* USER CODE END Default_Task */
 }
 
 /* USER CODE BEGIN Header_Led_Task */
@@ -161,14 +161,14 @@ void Default_Task(void const * argument)
 /* USER CODE END Header_Led_Task */
 void Led_Task(void const * argument)
 {
-	/* USER CODE BEGIN Led_Task */
+  /* USER CODE BEGIN Led_Task */
 	/* Infinite loop */
 	for(;;)
 	{
 		led_Toggle();
 		osDelay(500);
 	}
-	/* USER CODE END Led_Task */
+  /* USER CODE END Led_Task */
 }
 
 /* USER CODE BEGIN Header_Key_Task */
@@ -180,7 +180,7 @@ void Led_Task(void const * argument)
 /* USER CODE END Header_Key_Task */
 void Key_Task(void const * argument)
 {
-	/* USER CODE BEGIN Key_Task */
+  /* USER CODE BEGIN Key_Task */
 	int8_t key = 0;
 	/* Infinite loop */
 	for(;;)
@@ -190,7 +190,7 @@ void Key_Task(void const * argument)
 //			printf("%d\n", key);
 //		}
 	}
-	/* USER CODE END Key_Task */
+  /* USER CODE END Key_Task */
 }
 
 /* Private application code --------------------------------------------------*/

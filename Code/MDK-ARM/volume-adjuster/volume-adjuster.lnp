@@ -7,6 +7,7 @@
 "volume-adjuster\usart.o"
 "volume-adjuster\stm32f1xx_it.o"
 "volume-adjuster\stm32f1xx_hal_msp.o"
+"volume-adjuster\stm32f1xx_hal_timebase_tim.o"
 "volume-adjuster\led.o"
 "volume-adjuster\key.o"
 "volume-adjuster\stm32f1xx_hal_gpio_ex.o"
