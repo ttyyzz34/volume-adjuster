@@ -2,16 +2,16 @@
 CAD.formats=
 CAD.pinconfig=
 CAD.provider=
-FREERTOS.FootprintOK=true
-FREERTOS.IPParameters=Tasks01,configTOTAL_HEAP_SIZE,Queues01,FootprintOK
-FREERTOS.Queues01=KeyQueue,2,uint16_t,0,Dynamic,NULL,NULL
-FREERTOS.Tasks01=DefaultTask,-3,256,Default_Task,Default,NULL,Dynamic,NULL,NULL;LedTask,-2,256,Led_Task,Default,NULL,Dynamic,NULL,NULL;KeyTask,-2,1024,Key_Task,Default,NULL,Dynamic,NULL,NULL
-FREERTOS.configTOTAL_HEAP_SIZE=10240
+FREERTOS.CountingSemaphores01=KeyCountingSem,2,Dynamic,NULL
+FREERTOS.IPParameters=Tasks01,configTOTAL_HEAP_SIZE,CountingSemaphores01
+FREERTOS.Tasks01=LEDTask,0,128,LED_Task,Default,NULL,Dynamic,NULL,NULL
+FREERTOS.configTOTAL_HEAP_SIZE=4096
 File.Version=6
 GPIO.groupedBy=Group By Peripherals
 KeepUserPlacement=false
 Mcu.CPN=STM32F103CBT6
 Mcu.Family=STM32F1
+<<<<<<< HEAD
 Mcu.IP0=FREERTOS
 Mcu.IP1=NVIC
 Mcu.IP2=RCC
@@ -22,11 +22,24 @@ Mcu.IP6=TIM4
 Mcu.IP7=USART1
 Mcu.IP8=USB
 Mcu.IP9=USB_DEVICE
+=======
+Mcu.IP0=FATFS
+Mcu.IP1=FREERTOS
+Mcu.IP2=NVIC
+Mcu.IP3=RCC
+Mcu.IP4=SYS
+Mcu.IP5=TIM1
+Mcu.IP6=TIM2
+Mcu.IP7=TIM3
+Mcu.IP8=TIM4
+Mcu.IP9=USB
+>>>>>>> parent of 360faad (0502)
 Mcu.IPNb=10
 Mcu.Name=STM32F103C(8-B)Tx
 Mcu.Package=LQFP48
 Mcu.Pin0=PC13-TAMPER-RTC
 Mcu.Pin1=PD0-OSC_IN
+<<<<<<< HEAD
 Mcu.Pin10=PA10
 Mcu.Pin11=PA11
 Mcu.Pin12=PA12
@@ -38,14 +51,34 @@ Mcu.Pin17=VP_SYS_VS_ND
 Mcu.Pin18=VP_SYS_VS_tim1
 Mcu.Pin19=VP_USB_DEVICE_VS_USB_DEVICE_HID_FS
 Mcu.Pin2=PD1-OSC_OUT
+=======
+Mcu.Pin10=PB13
+Mcu.Pin11=PB14
+Mcu.Pin12=PA8
+Mcu.Pin13=PA11
+Mcu.Pin14=PA12
+Mcu.Pin15=PB6
+Mcu.Pin16=PB7
+Mcu.Pin17=PB9
+Mcu.Pin18=VP_FATFS_VS_Generic
+Mcu.Pin19=VP_FREERTOS_VS_CMSIS_V1
+Mcu.Pin2=PD1-OSC_OUT
+Mcu.Pin20=VP_SYS_VS_ND
+Mcu.Pin21=VP_SYS_VS_Systick
+>>>>>>> parent of 360faad (0502)
 Mcu.Pin3=PA0-WKUP
 Mcu.Pin4=PA1
 Mcu.Pin5=PA3
 Mcu.Pin6=PA6
 Mcu.Pin7=PA7
 Mcu.Pin8=PB1
+<<<<<<< HEAD
 Mcu.Pin9=PA9
 Mcu.PinsNb=20
+=======
+Mcu.Pin9=PB12
+Mcu.PinsNb=22
+>>>>>>> parent of 360faad (0502)
 Mcu.ThirdPartyNb=0
 Mcu.UserConstants=
 Mcu.UserName=STM32F103CBTx
@@ -63,16 +96,18 @@ NVIC.SVCall_IRQn=true\:0\:0\:false\:false\:false\:false\:false\:false\:false
 NVIC.SavedPendsvIrqHandlerGenerated=true
 NVIC.SavedSvcallIrqHandlerGenerated=true
 NVIC.SavedSystickIrqHandlerGenerated=true
+<<<<<<< HEAD
 NVIC.SysTick_IRQn=true\:15\:0\:false\:false\:false\:true\:false\:true\:false
 NVIC.TIM1_UP_IRQn=true\:15\:0\:false\:false\:true\:false\:false\:true\:true
 NVIC.TimeBase=TIM1_UP_IRQn
 NVIC.TimeBaseIP=TIM1
 NVIC.USB_LP_CAN1_RX0_IRQn=true\:5\:0\:false\:false\:true\:true\:false\:true\:true
+=======
+NVIC.SysTick_IRQn=true\:15\:0\:false\:false\:true\:true\:false\:true\:false
+>>>>>>> parent of 360faad (0502)
 NVIC.UsageFault_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false\:false
 PA0-WKUP.Signal=S_TIM2_CH1_ETR
 PA1.Signal=S_TIM2_CH2
-PA10.Mode=Asynchronous
-PA10.Signal=USART1_RX
 PA11.Mode=Device
 PA11.Signal=USB_DM
 PA12.Mode=Device
@@ -80,8 +115,12 @@ PA12.Signal=USB_DP
 PA3.Signal=S_TIM2_CH4
 PA6.Signal=S_TIM3_CH1
 PA7.Signal=S_TIM3_CH2
+<<<<<<< HEAD
 PA9.Mode=Asynchronous
 PA9.Signal=USART1_TX
+=======
+PA8.Signal=S_TIM1_CH1
+>>>>>>> parent of 360faad (0502)
 PB1.Signal=S_TIM3_CH4
 PB6.Signal=S_TIM4_CH1
 PB7.Signal=S_TIM4_CH2
@@ -123,9 +162,15 @@ ProjectManager.StackSize=0x400
 ProjectManager.TargetToolchain=MDK-ARM V5
 ProjectManager.ToolChainLocation=
 ProjectManager.UnderRoot=false
+<<<<<<< HEAD
 ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_TIM2_Init-TIM2-false-HAL-true,4-MX_TIM3_Init-TIM3-false-HAL-true,5-MX_TIM4_Init-TIM4-false-HAL-true,6-MX_USART1_UART_Init-USART1-false-HAL-true,7-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false
 RCC.ADCFreqValue=36000000
 RCC.AHBFreq_Value=72000000
+=======
+ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true,3-MX_USART1_UART_Init-USART1-false-HAL-true,3-MX_FATFS_Init-FATFS-false-HAL-false,5-MX_USB_DEVICE_Init-USB_DEVICE-false-HAL-false
+RCC.ADCFreqValue=64000000
+RCC.AHBFreq_Value=128000000
+>>>>>>> parent of 360faad (0502)
 RCC.APB1CLKDivider=RCC_HCLK_DIV2
 RCC.APB1Freq_Value=36000000
 RCC.APB1TimFreq_Value=72000000
@@ -183,19 +228,29 @@ TIM4.Channel-PWM\ Generation4\ CH4=TIM_CHANNEL_4
 TIM4.IPParameters=Channel-PWM Generation1 CH1,Channel-PWM Generation2 CH2,Channel-PWM Generation4 CH4,Prescaler,Period
 TIM4.Period=999
 TIM4.Prescaler=128
+<<<<<<< HEAD
 USART1.IPParameters=VirtualMode
 USART1.VirtualMode=VM_ASYNC
 USB_DEVICE.CLASS_NAME_FS=HID
 USB_DEVICE.IPParameters=VirtualMode,VirtualModeFS,CLASS_NAME_FS
 USB_DEVICE.VirtualMode=Hid
 USB_DEVICE.VirtualModeFS=Hid_FS
+=======
+VP_FATFS_VS_Generic.Mode=User_defined
+VP_FATFS_VS_Generic.Signal=FATFS_VS_Generic
+>>>>>>> parent of 360faad (0502)
 VP_FREERTOS_VS_CMSIS_V1.Mode=CMSIS_V1
 VP_FREERTOS_VS_CMSIS_V1.Signal=FREERTOS_VS_CMSIS_V1
 VP_SYS_VS_ND.Mode=No_Debug
 VP_SYS_VS_ND.Signal=SYS_VS_ND
+<<<<<<< HEAD
 VP_SYS_VS_tim1.Mode=TIM1
 VP_SYS_VS_tim1.Signal=SYS_VS_tim1
 VP_USB_DEVICE_VS_USB_DEVICE_HID_FS.Mode=HID_FS
 VP_USB_DEVICE_VS_USB_DEVICE_HID_FS.Signal=USB_DEVICE_VS_USB_DEVICE_HID_FS
+=======
+VP_SYS_VS_Systick.Mode=SysTick
+VP_SYS_VS_Systick.Signal=SYS_VS_Systick
+>>>>>>> parent of 360faad (0502)
 board=custom
 rtos.0.ip=FREERTOS
