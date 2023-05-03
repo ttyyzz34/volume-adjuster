@@ -25,7 +25,8 @@ volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex
 volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
-volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
+volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 volume-adjuster\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
@@ -51,11 +52,6 @@ volume-adjuster\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cm
 volume-adjuster\main.o: ../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h
 volume-adjuster\main.o: ../Middlewares/Third_Party/FatFs/src/diskio.h
 volume-adjuster\main.o: ../FATFS/Target/user_diskio.h
-volume-adjuster\main.o: ../Core/Inc/usart.h
-volume-adjuster\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-volume-adjuster\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-volume-adjuster\main.o: ../USB_DEVICE/App/usb_device.h
-volume-adjuster\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
-volume-adjuster\main.o: ../USB_DEVICE/Target/usbd_conf.h
-volume-adjuster\main.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+volume-adjuster\main.o: ../Core/Inc/tim.h
+volume-adjuster\main.o: ../Core/Inc/usb.h
 volume-adjuster\main.o: ../Core/Inc/gpio.h
