@@ -24,6 +24,8 @@ volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_c
 volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 volume-adjuster\usbd_conf.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
@@ -38,4 +40,4 @@ volume-adjuster\usbd_conf.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc
 volume-adjuster\usbd_conf.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h
 volume-adjuster\usbd_conf.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h
 volume-adjuster\usbd_conf.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
-volume-adjuster\usbd_conf.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc/usbd_customhid.h
+volume-adjuster\usbd_conf.o: ../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc/usbd_hid.h

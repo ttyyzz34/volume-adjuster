@@ -27,6 +27,7 @@ volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ha
 volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 volume-adjuster\stm32f1xx_it.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
@@ -40,3 +41,6 @@ volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/porta
 volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 volume-adjuster\stm32f1xx_it.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+volume-adjuster\stm32f1xx_it.o: ../Core/Inc/usart.h
+volume-adjuster\stm32f1xx_it.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+volume-adjuster\stm32f1xx_it.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

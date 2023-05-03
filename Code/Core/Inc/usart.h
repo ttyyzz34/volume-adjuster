@@ -1,9 +1,9 @@
 /* USER CODE BEGIN Header */
 /**
- ******************************************************************************
-  * @file    user_diskio.h
-  * @brief   This file contains the common defines and functions prototypes for
-  *          the user_diskio driver.
+  ******************************************************************************
+  * @file    usart.h
+  * @brief   This file contains all the function prototypes for
+  *          the usart.c file
   ******************************************************************************
   * @attention
   *
@@ -16,28 +16,38 @@
   *
   ******************************************************************************
   */
- /* USER CODE END Header */
-
+/* USER CODE END Header */
 /* Define to prevent recursive inclusion -------------------------------------*/
-#ifndef __USER_DISKIO_H
-#define __USER_DISKIO_H
+#ifndef __USART_H__
+#define __USART_H__
 
 #ifdef __cplusplus
- extern "C" {
+extern "C" {
 #endif
 
-/* USER CODE BEGIN 0 */
-
 /* Includes ------------------------------------------------------------------*/
-/* Exported types ------------------------------------------------------------*/
-/* Exported constants --------------------------------------------------------*/
-/* Exported functions ------------------------------------------------------- */
-extern Diskio_drvTypeDef  USER_Driver;
+#include "main.h"
 
-/* USER CODE END 0 */
+/* USER CODE BEGIN Includes */
+#include <stdio.h>
+#include <string.h>
+/* USER CODE END Includes */
+
+extern UART_HandleTypeDef huart1;
+
+/* USER CODE BEGIN Private defines */
+
+/* USER CODE END Private defines */
+
+void MX_USART1_UART_Init(void);
+
+/* USER CODE BEGIN Prototypes */
+
+/* USER CODE END Prototypes */
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* __USER_DISKIO_H */
+#endif /* __USART_H__ */
+
