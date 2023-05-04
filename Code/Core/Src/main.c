@@ -111,7 +111,7 @@ int main(void)
 	HAL_TIM_PWM_Start(&htim4,TIM_CHANNEL_2);
 	HAL_TIM_PWM_Start(&htim4,TIM_CHANNEL_4);
 
-	TIM1->CCR1 = 200;
+
 	/* USER CODE END 2 */
 
 	/* Init scheduler */
@@ -171,7 +171,7 @@ void SystemClock_Config(void)
 		Error_Handler();
 	}
 	PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_USB;
-	PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL_DIV1_5;
+	PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL;
 	if(HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
 	{
 		Error_Handler();

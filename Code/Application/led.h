@@ -9,6 +9,9 @@
 #include "gpio.h"
 
 void led_Toggle(void);
+void water_lamp(void);
 
+//私有成员函数
+static uint16_t set_pwm(uint16_t pwm);
 
 #endif  /*End of file.*/
