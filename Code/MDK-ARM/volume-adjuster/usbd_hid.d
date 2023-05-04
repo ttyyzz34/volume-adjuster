@@ -32,6 +32,8 @@ volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_co
 volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
+volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 volume-adjuster\usbd_hid.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h

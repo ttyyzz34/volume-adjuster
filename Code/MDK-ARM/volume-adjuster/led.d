@@ -28,10 +28,12 @@ volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_e
 volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h
 volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h
 volume-adjuster\led.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h
-volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
+volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
 volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 volume-adjuster\led.o: ../Core/Inc/FreeRTOSConfig.h
 volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
@@ -41,8 +43,4 @@ volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/
 volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
-volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
-volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
-volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
-volume-adjuster\led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 volume-adjuster\led.o: ../Core/Inc/gpio.h

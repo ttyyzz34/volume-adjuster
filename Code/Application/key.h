@@ -8,4 +8,5 @@
 
 #include "gpio.h"
 
+extern osMessageQueueId_t KeyQueueHandle;
 #endif  /*End of file.*/
